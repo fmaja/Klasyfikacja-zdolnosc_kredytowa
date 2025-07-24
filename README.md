@@ -1,0 +1,1 @@
+# Klasyfikacja-zdolnosc_kredytowa
