@@ -65,8 +65,7 @@ Wszystkie metody umożliwiły stosunkowo trafną klasyfikację zdolności kredyt
   - wykresy ROC i macierze pomyłek
 
 -  `regresja_logistyczna/` – folder zawierający skrypt Pythona:
-  - bliczanie współczynników regresji oraz wartości istotności (p-value)
-dla każdej z cech,
+  - obliczanie współczynników regresji oraz wartości istotności (p-value) dla każdej z cech
   - wizualizację wpływu cech na wynik klasyfikacji
 
 
