@@ -1,8 +1,7 @@
-# Ocena zdolności kredytowej klienta napodstawie danych demograficznych i finansowych
+# Ocena zdolności kredytowej klienta na podstawie danych demograficznych i finansowych
 
 Projekt miał na celu porównanie czterech metod klasyfikacyjnych służących do oceny zdolności kredytowej klientów banku. Analizie poddano rzeczywisty zbiór danych demograficznych i finansowych opisujących osoby ubiegające się o kredyt.
 
----
 
 ## Zastosowane metody klasyfikacji
 
@@ -11,7 +10,6 @@ Projekt miał na celu porównanie czterech metod klasyfikacyjnych służących d
 - Liniowa analiza dyskryminacyjna (LDA)  
 - Model hybrydowy (średnia ważona wyników powyższych trzech metod)
 
----
 
 ## Zmienne wykorzystane w analizie
 
@@ -38,7 +36,6 @@ Zbiór zawiera 1000 obserwacji oraz 15 cech klienta:
 
 Dane nie zawierały braków. Obserwacje odstające zostały zachowane ze względu na ich realny charakter.
 
----
 
 ## Technologie
 
@@ -46,13 +43,10 @@ Dane nie zawierały braków. Obserwacje odstające zostały zachowane ze względ
 - **R** – histogramy i boxploty  
 - **Excel** – statystyki opisowe, wykresy porównawcze, eksploracja danych
 
----
 
 ## Wyniki
 
 Wszystkie metody umożliwiły stosunkowo trafną klasyfikację zdolności kredytowej klientów. Najlepsze rezultaty osiągnęła regresja logistyczna, natomiast najsłabiej wypadł model kNN. Model hybrydowy uzyskał najwyższą wartość AUC-ROC, lecz cechował się mniejszą stabilnością. Największy wpływ na klasyfikację miały: status rachunku, historia kredytowa oraz czas trwania kredytu.
-
----
 
 ## Zawartość repozytorium
 
@@ -70,12 +64,11 @@ Wszystkie metody umożliwiły stosunkowo trafną klasyfikację zdolności kredyt
   - obliczanie miar skuteczności  
   - wykresy ROC i macierze pomyłek
 
--  regresja_logistyczna/ – folder zawierający skrypt Pythona:
-– obliczanie współczynników regresji oraz wartości istotności (p-value)
+-  `regresja_logistyczna/` – folder zawierający skrypt Pythona:
+  - bliczanie współczynników regresji oraz wartości istotności (p-value)
 dla każdej z cech,
-– wizualizację wpływu cech na wynik klasyfikacji
+  - wizualizację wpływu cech na wynik klasyfikacji
 
----
 
 ## Autorzy
 
