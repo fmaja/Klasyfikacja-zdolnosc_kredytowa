@@ -16,7 +16,7 @@ Projekt miał na celu porównanie czterech metod klasyfikacyjnych służących d
 Dane pochodzą z repozytorium UCI Machine Learning:  
 [Dua, D., & Graff, C. (1994). Statlog (German Credit Data)](https://archive.ics.uci.edu/dataset/144/statlog+german+credit+data)
 
-Zbiór zawiera 1000 obserwacji oraz 15 cech klienta:
+Do trenowania modeli klasyfikacji wybrano następujące 15 cech klienta:
 
 - Status rachunku bieżącego  
 - Czas trwania kredytu  
@@ -50,7 +50,7 @@ Wszystkie metody umożliwiły stosunkowo trafną klasyfikację zdolności kredyt
 
 ## Zawartość repozytorium
 
-- `Ocena zdolności kredytowej klienta.pdf` - pełny raport klasyfikacji
+- `Ocena zdolności kredytowej klienta.pdf` - pełny raport analizy
   
 - `Analiza Danych.xlsx` – plik Excela zawierający:
   - surowe dane wejściowe  
